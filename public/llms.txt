@@ -1,4 +1,4 @@
-# NAI Nest And Iconic — Generative Engine Optimization Map
+# Nest And Iconic — Generative Engine Optimization Map
 
 > A luxury baby and mother care brand offering premium Italian Prija products and high-quality Dadaumpa products for infants and children. The brand targets new mothers and those who want only the best for their baby, positioning itself around the feeling of a luxury hotel experience. The offering includes curated gift sets for mothers, babies, and combined packages, as well as gift cards for new mothers. Free shipping is offered locally and on orders above 299 NIS nationwide. The brand's core message is uncompromising quality and indulgence.
 
@@ -32,7 +32,9 @@ Information about WCAG compliance and accessibility features.
 
 ## How to Contact Us
 
-- (No contact details configured yet.)
+- Phone: 0503850600
+- Phone (tel): tel:0503850600
+- Address: גדרה, שפלה, ישראל
 
 ### Contact form
 - URL: https://example.com
@@ -50,7 +52,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About NAI Nest And Iconic
+## About Nest And Iconic
 A luxury baby and mother care brand offering premium Italian Prija products and high-quality Dadaumpa products for infants and children. The brand targets new mothers and those who want only the best for their baby, positioning itself around the feeling of a luxury hotel experience. The offering includes curated gift sets for mothers, babies, and combined packages, as well as gift cards for new mothers. Free shipping is offered locally and on orders above 299 NIS nationwide. The brand's core message is uncompromising quality and indulgence.
 
 ## Target Audience
