@@ -5459,6 +5459,52 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   max-width: 70% !important;
 }
 }
+
+@media (max-width: 768px) {
+.navbar .logo {
+  height: 56px !important;
+  width: auto !important;
+  max-width: none !important;
+}
+
+.navbar .nav-brand {
+  max-width: 75% !important;
+}
+}
+
+@media (max-width: 768px) {
+.navbar .mobile-toggle, .navbar .phone-header-btn {
+  display: none !important;
+}
+
+.navbar .nav-brand {
+  position: static !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  transform: none !important;
+  left: auto !important;
+  top: auto !important;
+  margin: 0 !important;
+  padding: 8px 12px !important;
+}
+
+.navbar .nav-brand .logo-link {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+}
+
+.navbar .logo {
+  height: 56px !important;
+  width: auto !important;
+  max-width: 100% !important;
+}
+
+.navbar .nav-container {
+  min-height: auto !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
