@@ -4202,7 +4202,7 @@ main { flex: 1 0 auto; }
 
 .logo, img.logo, .logo img, .logo-link img, .nav-brand img {
   max-height: 40px !important;
-  height: 28px !important;
+  height: 50px !important;
   width: auto !important;
   object-fit: contain !important;
 }
@@ -5482,7 +5482,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 }
 
 .navbar .nav-brand .logo-link .logo {
-  height: 28px !important;
+  height: 50px !important;
   width: auto !important;
 }
 
@@ -5529,7 +5529,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 }
 
 .navbar .nav-brand .logo-link .logo {
-  height: 28px !important;
+  height: 50px !important;
   width: auto !important;
 }
 
@@ -5565,7 +5565,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 }
 
 .navbar .logo {
-  height: 28px !important;
+  height: 50px !important;
   width: auto !important;
   max-width: 100% !important;
   object-fit: contain !important;
@@ -5574,7 +5574,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 
 @media (max-width: 768px) {
 .navbar .logo {
-  height: 28px !important;
+  height: 50px !important;
   width: auto !important;
   max-width: 100% !important;
 }
@@ -5586,7 +5586,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 
 @media (max-width: 768px) {
 .navbar .logo {
-  height: 28px !important;
+  height: 50px !important;
   width: auto !important;
   max-width: none !important;
 }
@@ -5620,7 +5620,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 }
 
 .navbar .logo {
-  height: 28px !important;
+  height: 50px !important;
   width: auto !important;
   max-width: 100% !important;
 }
@@ -5658,7 +5658,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 }
 
 .nav-brand .logo-link .logo {
-  height: 24px !important;
+  height: 50px !important;
   width: auto !important;
   flex-shrink: 0 !important;
 }
@@ -5904,31 +5904,31 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 }
 
 @media (max-width: 480px) {
-  .header-inner {
+.header-inner {
     padding: 10px 12px;
     gap: 10px;
   }
-  
-  .logo-img {
+
+.logo-img {
     height: 32px;
     max-width: 120px;
   }
-  
-  .hero-text-block {
+
+.hero-text-block {
     padding: 32px 20px;
     border-radius: 20px;
   }
-  
-  .hero-headline {
+
+.hero-headline {
     font-size: 1.8rem;
   }
-  
-  .hero-subheadline {
+
+.hero-subheadline {
     font-size: 0.95rem;
     margin-bottom: 28px;
   }
-  
-  .btn {
+
+.btn {
     font-size: 0.95rem;
     padding: 14px 22px;
   }
@@ -5999,7 +5999,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 }
 
 .navbar .logo {
-  height: 40px !important;
+  height: 50px !important;
   width: auto !important;
 }
 }
@@ -6015,7 +6015,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 }
 
 .navbar .logo {
-  height: 48px !important;
+  height: 50px !important;
   width: auto !important;
   max-height: none !important;
 }
@@ -6342,6 +6342,46 @@ nav.navbar .sub-menu li a {
 
 .navbar.scrolled .search-toggle {
   color: var(--nav-text, #FFF9EF) !important;
+}
+
+@media (min-width: 769px) {
+.navbar .mobile-toggle, .navbar .phone-header-btn {
+  display: flex !important;
+  position: absolute !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  z-index: 1001 !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 50% !important;
+  border: none !important;
+  cursor: pointer !important;
+  padding: 8px !important;
+  background: rgba(255,255,255,0.2) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  color: var(--nav-text, #FFF9EF) !important;
+  margin: 0 !important;
+  bottom: auto !important;
+  left: auto !important;
+  right: auto !important;
+}
+}
+
+.navbar[dir="rtl"] .mobile-toggle,
+html[dir="rtl"] .navbar .mobile-toggle,
+html[lang="he"] .navbar .mobile-toggle {
+  right: 20px !important;
+  left: auto !important;
+}
+
+.navbar[dir="rtl"] .phone-header-btn,
+html[dir="rtl"] .navbar .phone-header-btn,
+html[lang="he"] .navbar .phone-header-btn {
+  left: 20px !important;
+  right: auto !important;
 }
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
