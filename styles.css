@@ -6668,6 +6668,16 @@ nav.navbar .sub-menu li a {
 .navbar .mobile-toggle {
   color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
 }
+
+@media (min-width: 769px) {
+html[lang="he"] .nav-menu {
+  display: none !important;
+}
+
+html[dir="rtl"] .nav-menu {
+  display: none !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
