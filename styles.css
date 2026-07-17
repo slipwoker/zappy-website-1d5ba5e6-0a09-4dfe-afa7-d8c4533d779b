@@ -5418,6 +5418,47 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   flex-wrap: nowrap !important;
 }
 }
+
+@media (max-width: 768px) {
+.navbar .logo-text {
+  display: none !important;
+}
+
+.navbar .nav-brand {
+  max-width: 65% !important;
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  z-index: 1000 !important;
+}
+
+.navbar .nav-brand .logo-link {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+}
+
+.navbar .logo {
+  height: 44px !important;
+  width: auto !important;
+  max-width: 100% !important;
+  object-fit: contain !important;
+}
+}
+
+@media (max-width: 768px) {
+.navbar .logo {
+  height: 50px !important;
+  width: auto !important;
+  max-width: 100% !important;
+}
+
+.navbar .nav-brand {
+  max-width: 70% !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
