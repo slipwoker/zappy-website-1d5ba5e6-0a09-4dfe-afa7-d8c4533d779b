@@ -6383,6 +6383,291 @@ html[lang="he"] .navbar .phone-header-btn {
   left: 20px !important;
   right: auto !important;
 }
+
+.nav-menu {
+  display: none !important;
+}
+
+.nav-cta-container {
+  display: none !important;
+}
+
+.navbar {
+  background-color: #FFF9EF !important;
+  padding: 12px 0 !important;
+}
+
+.navbar .mobile-toggle, .navbar .phone-header-btn {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .nav-menu > li > a {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .nav-menu > .nav-item > a {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .nav-link {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar a:not(.nav-cta-btn) {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .navbar-brand {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .navbar-brand a {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .dropdown-toggle {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .mobile-hamburger-btn {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .mobile-close-btn {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .dropdown-menu li a {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .sub-menu a {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .sub-menu li a {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .nav-menu .sub-menu a {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .nav-menu .sub-menu li a {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .zappy-products-dropdown .sub-menu a {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+nav.navbar .sub-menu li a {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .mobile-submenu-toggle {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .phone-header-btn {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .nav-search-input {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .nav-search-box .nav-search-input {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .nav-search-input::placeholder {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .nav-search-result-name {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .nav-search-result-item a {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .nav-search-result-price {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .nav-search-no-results {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .search-no-results {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .cart-link.nav-cart {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .login-link.nav-login {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .nav-search-toggle {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .search-toggle {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .cart-link.nav-cart svg {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .login-link.nav-login svg {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .nav-search-toggle svg {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .search-toggle svg {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled ~ .zappy-catalog-menu .catalog-menu-item {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled ~ .zappy-catalog-menu .catalog-menu-all {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled ~ #zappy-catalog-menu .catalog-menu-item {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled ~ #zappy-catalog-menu .catalog-menu-all {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled .nav-menu > li > a {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled .nav-menu > .nav-item > a {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled .nav-link {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled a:not(.nav-cta-btn) {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled .lang-switcher-current {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled .lang-switcher .lang-switcher-current {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled .lang-switcher-current svg {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled .lang-switcher .lang-switcher-current svg {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled .navbar-brand {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled .navbar-brand a {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled .dropdown-toggle {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled .mobile-hamburger-btn {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled .mobile-close-btn {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled .phone-header-btn {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled .mobile-toggle {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled .mobile-toggle svg {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled .mobile-hamburger-btn svg {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled .mobile-close-btn svg {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled .phone-header-btn svg {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled .navbar-brand svg {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled .logo-link svg {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled .nav-search-btn {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled .cart-link.nav-cart {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled .login-link.nav-login {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled .nav-search-toggle {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar.scrolled .search-toggle {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
+
+.navbar .mobile-toggle {
+  color: var(--background-color, var(--background, var(--bg-light, #2F2520))) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
@@ -6417,15 +6702,6 @@ body:has(.zappy-announcement-bar) nav.navbar:not(.zappy-catalog-menu),
 body:has(.zappy-announcement-bar) header.navbar,
 body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-search-panel) {
   top: var(--zappy-announcement-height, 40px) !important;
-}
-/* First-paint: pull fullscreen heroes behind the fixed announcement+nav so a
-   transparent --nav-bg does not flash the cream body strip (live FOUC that
-   preview never showed because preview injects the same underlap eagerly). */
-body:has(.zappy-announcement-bar) section[data-hero-type^="fullscreen"],
-body:has(.zappy-announcement-bar) .index-hero-section,
-body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
-  margin-top: calc(-1 * var(--zappy-header-stack-height)) !important;
-  padding-top: calc(var(--zappy-header-stack-height)) !important;
 }
 
 
@@ -7371,10 +7647,17 @@ html[dir="ltr"] .solution-item.solution-reverse .solution-content { order: 1 !im
 html[dir="ltr"] .service-detail.service-reverse .service-detail-image { order: -1 !important; }
 html[dir="ltr"] .service-detail.service-reverse .service-detail-content { order: 1 !important; }
 
+/* ENSURE: navbar-text-contrast */
+:root {
+  --nav-bg: #FFF9EF !important;
+  --nav-text: var(--text-dark, #1a1a1a) !important;
+}
+
 /* ENSURE: navbar-logo-isolation */
 .navbar .logo,
 .nav-brand .logo,
 .logo-link .logo {
+  filter: none !important;
   margin: 0 !important;
 }
 
